@@ -1,6 +1,6 @@
 <?php
 
-namespace vc;
+namespace VisualComposer;
 
 class Module extends \yii\base\Module
 {

@@ -22,8 +22,8 @@ class m190212_151819_create_table_visual_composer_item extends Migration
             'target_id' => $this->integer()->null(),
             'target_sign' => $this->integer()->null(),
 
-            'data_attributes' => $this->json()->defaultValue([]),
-            'data_options' => $this->json()->defaultValue([]),
+            'data_attributes' => $this->json(),
+            'data_options' => $this->json(),
         ]);
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace VisualComposer\controllers;
+namespace visualComposer\controllers;
 
 use yii\web\Controller;
 

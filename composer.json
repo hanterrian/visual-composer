@@ -1,0 +1,20 @@
+{
+    "name": "hanterrian/visual-composer-module",
+    "type": "library",
+    "authors": [
+        {
+            "name": "hanterrian",
+            "email": "hanterrian@ukr.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-bootstrap": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "vc\\": "src/VisualComposer/"
+        }
+    }
+}
